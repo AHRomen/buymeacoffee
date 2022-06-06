@@ -1,0 +1,31 @@
+/* local group */
+
+*{
+	margin: 0rem;
+	padding:0rem;
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+	text-rendering: optimizeLegibility;
+	line-height: 1.3rem;
+}
+ul li{
+	-moz-list-style:none;
+	list-style: none;
+}
+:focus{
+	outline: none;
+}
+
+/* Heading*/
+
+/*Reuseable component*/
+.row{
+	max-width: 91%;
+	margin:0 auto;
+}
